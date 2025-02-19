@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+*{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: rgb(40, 40, 40);
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+h1{
+  padding: 0 0 0 10px;
+  margin: 0;
+}
+body{
+  background-color: rgb(240, 244, 248);
+}
+header{
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+}
+main{
+  background-color: aliceblue;
+  width: 100%;
+  height: 100vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+.main-search{
+  background-color: aliceblue;
+border: none;
+font-size: 20px;
+padding: 10px 30px;
+margin: 0 0 60px 0;
+border-radius: 30px;
+color: lightsteelblue;
+width: 60%;
+}
+.card{
+  background-color: aliceblue;
+  padding: 15px;
+  border-radius: 15px;
+}
+.title-container{
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  height: 30px;
+  overflow: hidden;
+  margin: 20px 0;
+}
+.control-container{
+  display: flex;
+  padding: 3px 0  0 3px;
+  height: 100%;
+}
+.control-container input[type="checkbox"]{
+  margin-right: 3px;
+  width: 10px;
+}
+.control-container label{
+  margin-top: 2px;
+}
+.controls-container{
+display: flex;
+justify-content: space-between;
+height: 29px;
+}
+.controls-container ,controls-container button{
+  font-size: 11px;
+}
+.emoji{
+  margin-right: 7px;
+}
+.card input{
+  width: 100%;
+  margin: 5px 0;
+  box-sizing: border-box;
+  padding: 3px;
+}
+.video-container{
+  margin-bottom: 5px;
+}
+.side-bar{
+  width: 400px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.cloudinary-button{
+  color: lightsteelblue;
+  padding: 22px;
+  margin: 10px 30px;
+  border-radius: 15px;
+  background-color: aliceblue;
+  border: none;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 50,93,0.25) 0 2px 5px -1px rgba(0, 0, 0, 0.3) 0 1px 3px -1px;
+}
+.cloudinary-button:active{
+  background-color: aliceblue;
+  box-shadow: inset rgba(0, 0, 0, 0.1) 1px 1px 0, inset rgba(0, 0, 0, 0.7) 0px -1px 0;
+}
+.uploads-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,330px);
+  gap: 20px;
+  justify-content: center;
+}
+h2{
+  padding: 20px;
+  font-size: 28px;
+}
+h4{
+  font-size: 20px;
+  margin: 0;
+}
+li{
+  list-style: none;
+  padding: 10px;
+  font-size: 18px;
+}

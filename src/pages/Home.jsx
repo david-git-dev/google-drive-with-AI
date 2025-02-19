@@ -28,7 +28,7 @@ const Home = () => {
                setAssets(media)//only works if you have a backend....fuck haha
         }
         else{
-          const res = await fetch('https://res.cloudinary.com/dwhhp3szw/any/list/image.json', options)//aqui modificale para las mamadas del searchTerm checate en la documentacion donde dice lo del resources porque no tenemos backend entonces hay que hacer mamadas....
+          const res = await fetch('https://res.cloudinary.com/dwhhp3szw/any/list/image.json', options)//check to change if you use real backend to use api.cloudinary instead of res.cloudinary since this fetch is limited if only use fronted
           const media = await res.json()
           console.log(media)
                setAssets(media)
